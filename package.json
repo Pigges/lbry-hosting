@@ -1,0 +1,13 @@
+{
+  "name": "lbry-hosting",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "nodemon --exec bun run index.js"
+  },
+  "devDependencies": {
+    "bun-types": "^0.5.1",
+    "nodemon": "^2.0.20"
+  }
+}
